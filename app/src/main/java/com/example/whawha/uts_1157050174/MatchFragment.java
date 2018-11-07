@@ -31,12 +31,15 @@ public class MatchFragment extends Fragment {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
+
+        matchArrayList.add(new Match("PSM", 2, "PERSIJA", 2));
+        matchArrayList.add(new Match("PSM", 4, "BALI UNITED", 3));
         matchArrayList.add(new Match("PERSIB", 3, "PSM", 4));
         matchArrayList.add(new Match("PERSIJA", 1, "PERSIB", 2));
-        matchArrayList.add(new Match("PSM", 4, "BALI UNITED", 3));
         matchArrayList.add(new Match("BALI UNITED", 1, "PERSIJA", 4));
         matchArrayList.add(new Match("PERSIB", 3, "BALI UNITED", 3));
-        matchArrayList.add(new Match("PSM", 2, "PERSIJA", 2));
+
+
 
         adapter = new MatchAdapter(this.getContext(),matchArrayList);
         recyclerView.setAdapter(adapter);

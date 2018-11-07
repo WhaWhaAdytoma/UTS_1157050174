@@ -17,7 +17,7 @@
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:text="BALI UNITED"
+            android:text="PERSIB"
             android:textAlignment="center"
             android:textSize="20sp"
             android:padding="16dp"
