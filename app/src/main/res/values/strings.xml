@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Liga UTS</string>
+    <string name="app_name">Liga Indonesia</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_subtitle">github.com/WhaWhaAdytoma/UTS_1157050174</string>
@@ -8,5 +8,5 @@
     <string name="WhaWha">WhaWha</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Hello</string>
 </resources>

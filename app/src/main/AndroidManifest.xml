@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:label="Liga Indonesia"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".SplashScreen">
             <intent-filter>
